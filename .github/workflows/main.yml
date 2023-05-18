@@ -18,7 +18,7 @@ jobs:
         # ведь эта база будет работать только во время прогона тестов
         env:
           POSTGRES_USER: django_user
-          POSTGRES_PASSWORD: django_password
+          POSTGRES_PASSWORD: Haas882121$
           POSTGRES_DB: django_db
         ports:
           - 5432:5432
